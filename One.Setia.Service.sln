@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Dockerfile.build.bat = Dockerfile.build.bat
 	EndProjectSection
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "One.Setia.Service.Line", "One.Setia.Service.Line\One.Setia.Service.Line.njsproj", "{C39E3ED3-2CEE-410C-A64F-E88788C88690}"
-EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "One.Setia.Service.DialogFlow", "One.Setia.Service.DialogFlow\One.Setia.Service.DialogFlow.njsproj", "{9D363EAA-D7B8-4165-A46C-44C21F2E8265}"
 EndProject
 Global
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C39E3ED3-2CEE-410C-A64F-E88788C88690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C39E3ED3-2CEE-410C-A64F-E88788C88690}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C39E3ED3-2CEE-410C-A64F-E88788C88690}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C39E3ED3-2CEE-410C-A64F-E88788C88690}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9D363EAA-D7B8-4165-A46C-44C21F2E8265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9D363EAA-D7B8-4165-A46C-44C21F2E8265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D363EAA-D7B8-4165-A46C-44C21F2E8265}.Release|Any CPU.ActiveCfg = Release|Any CPU
