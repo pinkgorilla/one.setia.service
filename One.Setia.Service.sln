@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{852D4BFD-696B-46EE-8061-D672108C5FB4}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+		Dockerfile.build = Dockerfile.build
+		Dockerfile.build.bat = Dockerfile.build.bat
+	EndProjectSection
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "One.Setia.Service.Line", "One.Setia.Service.Line\One.Setia.Service.Line.njsproj", "{C39E3ED3-2CEE-410C-A64F-E88788C88690}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "One.Setia.Service.DialogFlow", "One.Setia.Service.DialogFlow\One.Setia.Service.DialogFlow.njsproj", "{9D363EAA-D7B8-4165-A46C-44C21F2E8265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C39E3ED3-2CEE-410C-A64F-E88788C88690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39E3ED3-2CEE-410C-A64F-E88788C88690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39E3ED3-2CEE-410C-A64F-E88788C88690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39E3ED3-2CEE-410C-A64F-E88788C88690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D363EAA-D7B8-4165-A46C-44C21F2E8265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D363EAA-D7B8-4165-A46C-44C21F2E8265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D363EAA-D7B8-4165-A46C-44C21F2E8265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D363EAA-D7B8-4165-A46C-44C21F2E8265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9A0229C-8101-4FB3-A0C0-AA8352B31D16}
+	EndGlobalSection
+EndGlobal

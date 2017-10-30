@@ -1,0 +1,12 @@
+FROM microsoft/aspnetcore-build:2.0.2-stretch
+WORKDIR /app
+
+COPY . .
+
+# COPY One.Setia.Service.WebApi/*.csproj .
+RUN dotnet restore
+
+# COPY One.Setia.Service.WebApi/. .
+# RUN dotnet build
+
+RUN dotnet publish One.Setia.Service.WebApi --output /out/ --configuration Release

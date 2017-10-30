@@ -1,0 +1,21 @@
+{
+  "name": "one.setia.service.dialog-flow",
+  "version": "0.0.0",
+  "description": "One.Setia.Service.DialogFlow",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": "Tris Setiawan"
+  },
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "node-fetch": "^1.7.3",
+    "shortid": "^2.2.8"
+  }
+}
