@@ -1,0 +1,19 @@
+{
+  "name": "one.setia.service.line",
+  "version": "0.0.0",
+  "description": "One.Setia.Service.Line",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": "Tris Setiawan"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^4.0.0",
+    "apiai": "^4.0.3",
+    "express": "^4.16.2"
+  }
+}
